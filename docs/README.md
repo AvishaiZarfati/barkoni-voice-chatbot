@@ -103,6 +103,7 @@ python test_hebrew_barkuni.py
 
 ```
 ├── main.py                    # Main chatbot application
+├── run_tests.py              # Comprehensive test runner
 ├── src/                       # Voice cloning modules
 │   ├── data_collection/       # Audio extraction tools
 │   ├── preprocessing/         # Audio cleaning pipeline
@@ -110,15 +111,21 @@ python test_hebrew_barkuni.py
 │   ├── training/             # Model training scripts
 │   ├── inference/            # Text-to-speech generation
 │   └── evaluation/           # Voice similarity metrics
+├── tests/                    # Organized test suite
+│   ├── unit/                 # Individual component tests
+│   ├── integration/          # Full system tests
+│   ├── voice/               # Voice synthesis tests
+│   └── personality/         # Character behavior tests
 ├── configs/                  # Configuration files
 │   ├── audio_config.yaml    # Audio processing settings
 │   ├── data_config.yaml     # Data collection config
 │   └── train_config.yaml    # Training parameters
 ├── scripts/                  # Utility scripts
 │   └── collect_data.py      # Data collection automation
-├── test_*.py                # Various test scripts
+├── utils/                   # Utility functions and tools
+├── docs/                    # Documentation and guides
+├── examples/                # Example usage scripts
 ├── requirements.txt         # Python dependencies
-├── setup.py                 # Setup automation
 └── README.md               # This file
 ```
 
@@ -144,28 +151,51 @@ python test_hebrew_barkuni.py
 
 ## Testing
 
-### Voice Testing
+### Comprehensive Test Suite
 ```bash
-# Test current implementation
-python test_current_barkoni.py
+# Run all tests
+python run_tests.py
 
-# Test Hebrew language support
-python test_hebrew_barkuni.py
+# Run specific test categories
+python run_tests.py voice
+python run_tests.py personality
+python run_tests.py integration
+python run_tests.py unit
 
-# Test voice cloning (requires Python 3.11)
-python test_barkoni_voice_cloning.py
-
-# Test microphone input
-python test_microphone.py
+# List available tests
+python run_tests.py --list
 ```
 
-### API Testing
-```bash
-# Test Claude AI integration
-python test_with_api.py
+### Individual Test Categories
 
-# Test personality responses
-python test_barkuni_personality.py
+**Voice Testing:**
+```bash
+# Comprehensive voice tests
+python tests/voice/test_barkuni_voice_comprehensive.py
+
+# Voice cloning tests (requires Python 3.11)
+python tests/voice/test_barkoni_voice_cloning.py
+
+# Microphone and audio tests
+python tests/voice/test_microphone.py
+```
+
+**Personality & Hebrew Testing:**
+```bash
+# Hebrew language and character validation
+python tests/personality/test_barkuni_hebrew_character.py
+
+# Deep personality analysis
+python tests/personality/test_barkuni_personality_deep.py
+```
+
+**Integration Testing:**
+```bash
+# Full system integration
+python tests/integration/test_current_barkoni.py
+
+# API integration tests
+python tests/integration/test_with_api.py
 ```
 
 ## Configuration

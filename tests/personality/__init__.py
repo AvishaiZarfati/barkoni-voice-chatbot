@@ -1,0 +1,1 @@
+"""Character personality and Hebrew language tests"""

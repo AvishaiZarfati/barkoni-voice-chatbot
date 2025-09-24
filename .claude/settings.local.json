@@ -25,7 +25,15 @@
       "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/tts.exe --model_name \"tts_models/multilingual/multi-dataset/xtts_v2\" --text \"Achla! Shalom, ani Barkoni ve''ani medaber ivrit!\" --speaker_wav \"barkuni_005070e0a3982721c8aa1e56d38bbab9.webm\" --language \"en\" --out_path \"barkoni_test_real_voice.wav\")",
       "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/tts.exe --model_name \"tts_models/multilingual/multi-dataset/xtts_v2\" --text \"Achla! Shalom, ani Barkoni ve ani medaber ivrit!\" --speaker_wav \"barkuni_005070e0a3982721c8aa1e56d38bbab9.webm\" --out_path \"barkoni_test_real_voice.wav\")",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(tree:*)",
+      "Bash(python run_tests.py:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python run_tests.py --list)",
+      "Bash(PYTHONIOENCODING=utf-8 python run_tests.py personality)",
+      "Bash(pip install:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python tests/personality/test_barkuni_hebrew_character.py)"
     ],
     "deny": [],
     "ask": []
