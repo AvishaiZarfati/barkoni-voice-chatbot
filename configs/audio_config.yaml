@@ -1,0 +1,12 @@
+# Audio Processing Configuration
+sample_rate: 22050
+hop_length: 256
+win_length: 1024
+n_fft: 1024
+n_mels: 80
+fmin: 0
+fmax: 8000
+
+# Voice cloning specific
+target_voice: "barkoni"
+language: "he"  # Hebrew

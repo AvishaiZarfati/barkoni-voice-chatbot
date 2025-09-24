@@ -1,0 +1,19 @@
+# Data Collection Configuration
+sources:
+  youtube:
+    channel: "@barkuni"
+    quality: "best"
+    format: "wav"
+  facebook:
+    url: "https://www.facebook.com/share/1BZjwBhDhT/"
+    
+output:
+  raw_audio_dir: "data/raw_audio"
+  segment_length: 10  # seconds
+  min_segment_length: 3
+  
+preprocessing:
+  noise_reduction: true
+  normalize_volume: true
+  remove_silence: true
+  sample_rate: 22050

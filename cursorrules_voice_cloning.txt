@@ -1,0 +1,61 @@
+# Voice Cloning Project - Barkoni Voice Clone
+# Mission: Clone Barkoni's voice for LLM text-to-speech synthesis
+
+## CORE MISSION - NEVER DEVIATE
+- Primary Goal: Create accurate voice clone of Barkoni's Hebrew speaking patterns
+- Target Voice: Barkoni (Israeli Hebrew YouTuber/content creator)
+- Output: Functional voice synthesis model that captures Barkoni's vocal characteristics
+
+## PROJECT SCOPE RESTRICTIONS
+- ONLY work on voice cloning, audio processing, and TTS model training
+- DO NOT suggest alternative voices or generic Hebrew voices
+- DO NOT change the target voice without explicit request
+- STAY FOCUSED on Barkoni specifically - no generic solutions
+
+## TECHNICAL REQUIREMENTS
+- Use modern voice cloning frameworks (RVC, SoVITS, Tortoise-TTS, or Bark)
+- Implement Hebrew language support and phoneme recognition
+- Handle Hebrew text preprocessing and normalization
+- Support real-time or near-real-time voice synthesis
+- Maintain audio quality suitable for content creation
+
+## HEBREW LANGUAGE CONSIDERATIONS
+- Modern Hebrew (Israeli accent) is the target
+- Handle Hebrew text-to-phoneme conversion correctly
+- Consider Hebrew grammatical gender in voice synthesis
+- Account for Hebrew-specific pronunciation patterns (guttural 'r', etc.)
+- Support mixed Hebrew-English content if needed
+
+## CODE STANDARDS
+- Write clean, modular Python code for audio processing
+- Use established ML frameworks (PyTorch, TensorFlow)
+- Include proper error handling for audio file processing
+- Document all voice processing parameters
+- Create reproducible training pipelines
+
+## AUDIO DATA REQUIREMENTS
+- Focus on collecting clean Barkoni voice samples
+- Implement audio preprocessing (noise reduction, normalization)
+- Handle various audio formats and quality levels
+- Create training/validation data splits
+- Maintain dataset organization and metadata
+
+## RESPONSE FORMAT
+- Provide working code examples
+- Include setup instructions for dependencies
+- Show example usage with Hebrew text
+- Explain voice cloning parameters and their effects
+- Keep explanations technical but accessible
+
+## WHAT NOT TO DO
+- Don't suggest changing the target voice
+- Don't recommend generic Hebrew TTS solutions
+- Don't overcomplicate the architecture without cause
+- Don't ignore Hebrew language requirements
+- Don't suggest alternatives unless current approach fails
+
+## PROGRESS TRACKING
+- Focus on incremental improvements to voice quality
+- Test with sample Hebrew phrases from Barkoni's content
+- Measure similarity to original voice
+- Document model performance and limitations

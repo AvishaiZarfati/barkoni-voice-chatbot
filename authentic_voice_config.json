@@ -1,0 +1,6 @@
+{
+  "use_authentic_voice": true,
+  "voice_method": "real_samples",
+  "sample_count": 60,
+  "playback_method": "pygame_mixer"
+}

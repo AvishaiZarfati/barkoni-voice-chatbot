@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PYTHONIOENCODING=utf-8 python test_microphone.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python test_tts.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python debug_voice.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python voice_clone_alternatives.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python hybrid_voice_system.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python test_hebrew_barkuni.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python test_with_api.py)",
+      "Bash(conda create:*)",
+      "Bash(conda activate:*)",
+      "Bash(conda init:*)",
+      "Bash(C:Userszavisanaconda3Scriptsactivate.bat barkoni)",
+      "Bash(call C:Userszavisanaconda3Scriptsactivate.bat barkoni)",
+      "Bash(C:/Users/zavis/anaconda3/Scripts/conda.exe install -n barkoni TTS torch librosa soundfile -c conda-forge -y)",
+      "Bash(C:/Users/zavis/anaconda3/Scripts/conda.exe install -n barkoni pip -y)",
+      "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/pip.exe install TTS torch librosa soundfile)",
+      "Bash(PYTHONIOENCODING=utf-8 python test_current_barkoni.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python test_barkoni_simple.py)",
+      "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/python.exe test_barkoni_voice_cloning.py)",
+      "Bash(\"C:\\Users\\zavis\\anaconda3\\envs\\barkoni\\Scripts\\python.exe\" test_barkoni_voice_cloning.py)",
+      "Read(//c/Users/zavis/anaconda3/envs/barkoni/Scripts/**)",
+      "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/tts.exe --list_models)",
+      "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/tts.exe --model_name \"tts_models/multilingual/multi-dataset/xtts_v2\" --text \"Achla! Shalom, ani Barkoni ve''ani medaber ivrit!\" --speaker_wav \"barkuni_005070e0a3982721c8aa1e56d38bbab9.webm\" --language \"en\" --out_path \"barkoni_test_real_voice.wav\")",
+      "Bash(C:/Users/zavis/anaconda3/envs/barkoni/Scripts/tts.exe --model_name \"tts_models/multilingual/multi-dataset/xtts_v2\" --text \"Achla! Shalom, ani Barkoni ve ani medaber ivrit!\" --speaker_wav \"barkuni_005070e0a3982721c8aa1e56d38bbab9.webm\" --out_path \"barkoni_test_real_voice.wav\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

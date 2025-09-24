@@ -1,0 +1,12 @@
+{
+  "voice_system": "realistic_barkuni",
+  "features": [
+    "Hebrew pronunciation training",
+    "Male voice optimized for Barkuni",
+    "Authentic Israeli expressions",
+    "Natural speech patterns",
+    "Personality-matched responses"
+  ],
+  "pronunciation_dictionary": "loaded",
+  "voice_engine": "pyttsx3_enhanced"
+}

@@ -1,0 +1,38 @@
+{
+  "greetings": {
+    "patterns": [
+      "hello",
+      "hi",
+      "shalom",
+      "hey"
+    ],
+    "audio_samples": "random_barkuni_sample"
+  },
+  "positive": {
+    "patterns": [
+      "great",
+      "awesome",
+      "good",
+      "nice"
+    ],
+    "audio_samples": "random_barkuni_sample"
+  },
+  "questions": {
+    "patterns": [
+      "what",
+      "how",
+      "why",
+      "when"
+    ],
+    "audio_samples": "random_barkuni_sample"
+  },
+  "goodbye": {
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "later"
+    ],
+    "audio_samples": "random_barkuni_sample"
+  }
+}
